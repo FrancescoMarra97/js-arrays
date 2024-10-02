@@ -19,7 +19,7 @@ teachers[4]="Patrick"
 console.log(teachers[4]);
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = "Luca";
+const lastTeacher = teachers.pop();
 teachers.pop();
 console.log(teachers); 
 console.log(lastTeacher);
